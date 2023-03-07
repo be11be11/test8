@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@media screen and (min-width:10px) and (max-width:900px){
+.box {
+  border:1px solid #40B20C10; 
+  width: 100%;       /* 適当な幅を指定 */
+  height: 350px;       /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
+}
+
+/* 共通するCSS */
+.box img {
+  border:1px solid #10B5C5; 
+  width: 25%;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
+}
+
+.box .ヘア1 {
+  /* 左上に固定 */
+  top: 0;
+  left: 0;
+}
+.box .ヘア2 {
+  /* 右下に固定 */
+  bottom: -5px;
+  left: 100px;
+}
+  .box .ヘア3 {
+  /* 右下に固定 */
+  top: 0;
+  right: 100px;
+}
+ .box .ヘア4 {
+  /* 右下に固定 */
+  bottom: -5px;
+  right: 0;
+} 
+  
+}
+
+@media screen and (min-width:900px) and (max-width:2000px){
+  .box {
+  border:1px solid #40B20C10; 
+  width: 100%;       /* 適当な幅を指定 */
+  height: 850px;       /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
+}
+
+/* 共通するCSS */
+.box img {
+  border:1px solid #10B5C5; 
+  width: 25%;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
+}
+
+.box .ヘア1 {
+  /* 左上に固定 */
+  top: 0;
+  left: 0;
+}
+.box .ヘア2 {
+  /* 右下に固定 */
+  bottom: -5px;
+  left: 100px;
+}
+  .box .ヘア3 {
+  /* 右下に固定 */
+  top: 0;
+  right: 100px;
+}
+ .box .ヘア4 {
+  /* 右下に固定 */
+  bottom: -5px;
+  right: 0;
+} 
+
+}
