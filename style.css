@@ -76,7 +76,7 @@
 
 }
 
-@media screen and (min-width:501px) and (max-width:2000px){
+@media screen and (min-width:1400px) and (max-width:2000px){
   .box {
   border:1px solid #40B20C10; 
   width: 100%;       /* 適当な幅を指定 */
