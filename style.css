@@ -42,7 +42,7 @@
   .box {
   border:1px solid #40B20C10; 
   width: 100%;       /* 適当な幅を指定 */
-  height: 1200px;       /* 適当な高さを指定 */
+  height: 2000px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
 }
 
